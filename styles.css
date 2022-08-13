@@ -1,0 +1,46 @@
+:root {
+--grid-cols: 0;
+--grid-rows: 0;
+--paint-color: ;
+}
+
+.containerDiv {
+display: grid;
+padding: 5em;
+height: 400px;
+width: 400px;
+margin: auto;
+grid-template-rows: repeat(var(--grid-rows), 1fr);
+grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+border: 1px solid #ddd;
+text-align: center;
+}
+
+body {
+margin: auto;
+height: 100%;
+width: 100%;
+}
+
+.mainDiv {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons {
+    padding: 8px;
+}
+
+.reset {
+    margin-right: 4px;
+}
+
+.randomColor {
+    margin-right: 4px;
+}
